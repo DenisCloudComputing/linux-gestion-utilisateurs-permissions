@@ -1,0 +1,41 @@
+# ╔══════════════════════════════════════════════════════════╗
+# ║  .gitignore — Cloud Computing Security                   ║
+# ║  Ne JAMAIS exposer de secrets sur GitHub                 ║
+# ╚══════════════════════════════════════════════════════════╝
+
+# === CLÉS ET CREDENTIALS AWS ===
+*.pem
+*.key
+*.ppk
+credentials
+.aws/
+*access_key*
+*secret_key*
+
+# === VARIABLES D'ENVIRONNEMENT ===
+.env
+.env.*
+*.secret
+*password*
+
+# === SYSTÈME D'EXPLOITATION ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+
+# === ÉDITEURS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === LOGS ET TEMPORAIRES ===
+*.log
+*.tmp
+*.temp
+
+# === FICHIERS VOLUMINEUX ===
+*.iso
+*.tar.gz
+*.zip
